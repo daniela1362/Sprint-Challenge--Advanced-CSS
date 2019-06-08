@@ -1,1 +1,13 @@
 // Navigation code here
+.navcontainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    @media @mobile {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    }
+}
