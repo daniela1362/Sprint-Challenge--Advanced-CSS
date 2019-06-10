@@ -1,3 +1,11 @@
+.displayFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hover {
+  border-color: #999;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -159,6 +167,17 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.navcontainer {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 500px;) {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
 }
 footer {
   color: #22283B;
